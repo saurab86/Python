@@ -6,3 +6,6 @@ print()
 print(variable[5:7])  #Print only 'of'.
 print(variable[:5])   #Print 'Game'
 print(variable[8:])   #Prints 'Thrones 
+
+#Negative slicing
+print(variable[-7:-2])  #O/P 'Thron'
