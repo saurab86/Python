@@ -1,0 +1,24 @@
+# for i in range(10):
+#     print("i is now {}".format(i))
+
+i=0
+while i<5:
+    print("i is now {}".format(i))
+    i+=1
+print("*"*80)
+
+# One of the important features of while loops is that they can be used when you can't 
+# determine, in advance , how many times you will need to loop.
+
+#A 'for' loop will  repeat each time  in a predetrmined sequence, whereas with a while loop 
+# you dont need to know  how many times  the loop will execute.
+
+#Example is given below
+
+available_exits = ["east", "west", "north","south"]
+chosen_exit=""
+
+while chosen_exit not in available_exits:
+    chosen_exit=input("Please choose a direction to exit: ").lower()
+
+print("Finally you got out from the exit.")
