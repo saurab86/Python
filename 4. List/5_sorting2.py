@@ -19,4 +19,8 @@ print()
 
 names=["Benzema","Bale","Hazard","isco","Velverde","Casemiro","Alaba","Nacho","Militao","carvajal","Courtious"]
 names.sort(key=str.casefold)
+<<<<<<< HEAD
 print(names)
+=======
+print(names)
+>>>>>>> 72c46b249d19ace54cfcc9aa0b3e04c55e7e6fbd
