@@ -13,4 +13,4 @@ print("hello " * 5)  #Hello will be repeated 5 times.
 today = "friday"
 print("day" in today)       #TRUE
 print("fri" in today)       #TRUE
-print("parrot" in string4)  #TRUE
+print("parrot" in string4)  #FALSE
